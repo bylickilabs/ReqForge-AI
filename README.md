@@ -457,7 +457,11 @@ Falls noch keine Lizenzdatei vorhanden ist, sollte diese ergänzt werden.
 
 GitHub, Website und weitere Projektlinks können hier ergänzt werden.
 
+<br>
+
 ---
+
+<br>
 
 # English
 
