@@ -20,7 +20,6 @@ Please do **not** use public GitHub issues for security-related reports if the i
 - [Dependencies and Third Party Components](#dependencies-and-third-party-components)
 - [Planned Security Development](#planned-security-development)
 - [Note for Contributors](#note-for-contributors)
-- [Contact](#contact-1)
 
 ---
 
@@ -221,11 +220,3 @@ If you work on areas that could be security-relevant, the following applies:
 - do not post security observations publicly without review
 
 Please also read `CONTRIBUTING.md`.
-
----
-
-## Contact
-
-A confidential contact path should be used for security-related questions.
-
-If the repository does not yet define a dedicated security contact, one should be added, for example in the form of a separate email address for security reports.
