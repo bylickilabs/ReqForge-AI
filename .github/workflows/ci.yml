@@ -21,8 +21,11 @@ permissions:
   contents: read
 
 concurrency:
-  group: reqforge-ai-ci-${{ github.ref }}
+  group: reqforge-ai-ci-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build:
@@ -31,30 +34,31 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
+
+      - name: Show Node.js version
+        run: node --version
+
+      - name: Show npm version
+        run: npm --version
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Verify npm version
-        run: npm --version
-
-      - name: Verify Node.js version
-        run: node --version
 
       - name: Build application
         run: npm run build
 
       - name: Upload build artifact
         if: success()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: reqforge-ai-dist
           path: dist
           if-no-files-found: error
+          retention-days: 7
