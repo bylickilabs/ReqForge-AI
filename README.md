@@ -1,3 +1,4 @@
+[![ReqForge AI CI](https://github.com/bylickilabs/ReqForge-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/bylickilabs/ReqForge-AI/actions/workflows/ci.yml)
 # ReqForge AI
 
 > Moderne AI Workbench für Requirements, Architektur, Aufgabenpakete und technische Vorbereitung  
