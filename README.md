@@ -25,7 +25,6 @@
   - [15. Repository Hinweise](#15-repository-hinweise)
   - [16. Mitwirken](#16-mitwirken)
   - [17. Lizenz](#17-lizenz)
-  - [18. Kontakt](#18-kontakt)
   
 - [English](#english)
   - [1. Project Overview](#1-project-overview)
@@ -45,7 +44,6 @@
   - [15. Repository Notes](#15-repository-notes)
   - [16. Contributing](#16-contributing)
   - [17. License](#17-license)
-  - [18. Contact](#18-contact)
 
 ---
 
@@ -449,13 +447,6 @@ Für das Repository kann je nach gewünschter Offenheit eine passende Lizenz gew
 Falls noch keine Lizenzdatei vorhanden ist, sollte diese ergänzt werden.
 
 ---
-
-## 18. Kontakt
-
-**Autor:** Thorsten Bylicki  
-**Unternehmen / Brand:** BYLICKILABS
-
-GitHub, Website und weitere Projektlinks können hier ergänzt werden.
 
 <br>
 
@@ -863,10 +854,3 @@ A suitable license can be chosen depending on the intended level of openness, fo
 If no license file exists yet, it should be added.
 
 ---
-
-## 18. Contact
-
-**Author:** Thorsten Bylicki  
-**Company / Brand:** BYLICKILABS
-
-GitHub, website, and further project links can be added here.
