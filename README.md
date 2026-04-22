@@ -4,8 +4,8 @@
 > Moderne AI Workbench für Requirements, Architektur, Aufgabenpakete und technische Vorbereitung  
 > Modern AI Workbench for requirements, architecture, work packages, and technical preparation
 
-| ![Build](https://github.com/bylickilabs/ReqForge-AI/actions/workflows/ci.yml/badge.svg) | ![License](https://img.shields.io/github/license/bylickilabs/ReqForge-AI) | ![Stars](https://img.shields.io/github/stars/bylickilabs/ReqForge-AI) | ![Issues](https://img.shields.io/github/issues/bylickilabs/ReqForge-AI) |
-|---|---|---|---|
+| ![License](https://img.shields.io/github/license/bylickilabs/ReqForge-AI) | ![Stars](https://img.shields.io/github/stars/bylickilabs/ReqForge-AI) | ![Issues](https://img.shields.io/github/issues/bylickilabs/ReqForge-AI) |
+|---|---|---|
 
 | ![Last Commit](https://img.shields.io/github/last-commit/bylickilabs/ReqForge-AI) | ![React Frontend](https://img.shields.io/badge/Frontend-React-61DAFB) | ![Build Tool](https://img.shields.io/badge/Build-Vite-646CFF) | ![Language](https://img.shields.io/badge/Language-DE%20%2F%20EN-0A0A0A) |
 |---|---|---|---|
